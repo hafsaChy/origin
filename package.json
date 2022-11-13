@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "stylelint \"**/*.scss\"",
+    "style": "sass rehaf/scss/style.scss rehaf/css/style.css --no-source-map",
+    "style-min": "sass rehaf/scss/style.scss rehaf/css/style.min.css --no-source-map --style compressed"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafsaChy/origin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hafsaChy/origin/issues"
+  },
+  "homepage": "https://github.com/hafsaChy/origin#readme"
+}

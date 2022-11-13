@@ -4,8 +4,8 @@ Tagline: My portfolio.
 Social:
     - title: Link to my own Github repo
       url: https://github.com/hafsaChy/origin
-      icon: github
+      icon: fab fa-github
     - title: Link to course site
       url: https://dbwebb.se/design
-      icon: leaf
+      icon: flower
 ---

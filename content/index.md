@@ -3,12 +3,12 @@ Title: Home
 Description: This is our index page.
 ---
 
-Om mig själv
+About myself
 ==========================
 
-Jag är Hafsa Choudhury, född och uppvuxen i Bangladesh. Jag bor i Stockholm med min man och mina två döttrar. Jag älskar att spela badminton. Katt är mitt favoritdjur. Så jag lägger in kattens bild här.
+I am Hafsa Choudhry, born and raised in Bangladesh. I live in Stockholm with my husband and my two daughters. I love to play badminton. Cat is my favorite animal. So I put here a cat picture.
 
-Matematik är mitt favoritämne. Så jag gjorde mina kandidat- och masterexamen i matematik. Under mina kandidatstudier hade jag några kurser i datavetenskap. Mitt intresse för datavetenskap började på den tiden. Jag har börjat läsa webbprogrammering på BTH med drömmen om att bli webbprogrammerare.
+Mathematics is my favorite subject since my childhood. So I did my bachelor's and master's degrees in mathematics. During my bachelor's studies, I had some courses in computer science. My interest in computer science started at that time. I have started studying web programming at BTH with the dream of becoming a web programmer.
 
 ![cat](%assets_url%/img/cat.jpeg)
 
