@@ -9,9 +9,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import  'blockquotes' ;
 @import  'code' ;
 @import url( 'https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap' );
+@import 'technologies';
+@import 'technology';
+
 
 * {
-    font-family: 'Roboto' , sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1,
