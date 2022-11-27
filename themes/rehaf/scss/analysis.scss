@@ -1,0 +1,32 @@
+/* analysis */
+
+.analys {
+    display: grid;
+    grid-template-columns: 18% 82%;
+    grid-template-rows: 5000px;
+    gap: 2em 2em;
+    padding-right: 10%;
+}
+
+.aside {
+    padding-top: 20%;
+    padding-left: 10%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+@media (max-width: 840px) {
+    .aside {
+        display: none;
+    }
+
+    .analys {
+        grid-template-columns: 0.5% 99.5%;
+        gap: 0 0;
+    }
+}
+
+.content {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}

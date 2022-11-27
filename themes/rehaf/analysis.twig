@@ -1,0 +1,27 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+    {% if meta.Sidebar %}
+        <div  class = "main"  role = "main">
+            <div  class = "analys">
+                <aside class ="aside">
+                    <ul>
+                        {% for page in pages('analysis') if page.title and not page.hidden %}
+                            <li {% if page.id==current_page.id %} class ="active" {% endif %}>
+                                <a href="{{ page.url }}">{{ page.title}}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </aside>
+
+                <div class ="content">
+                    {{ content }}
+                </div>
+            </div>
+        </div> 
+    {% endif %}
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

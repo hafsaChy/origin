@@ -1,5 +1,5 @@
 @import  '../../node_modules/normalize.css/normalize' ;
-@import  'variables';
+@import  'variables-dark';
 @import  'typography';
 @import  'blockquotes' ;
 @import  'code' ;
@@ -8,9 +8,12 @@
 @import  'report' ;
 @import  'analysis' ;
 
+body {
+    background-color: #567;
+}
+
 * {
     font-family: 'Roboto', sans-serif;
-    color: $font-color;
 }
 
 h1,
@@ -22,7 +25,6 @@ h6 {
     font-family: 'Open Sans' , sans-serif;
 }
 
-body {
-    background-color: $background-color;
+* {
+    color: $font-color;
 }
-

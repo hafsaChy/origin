@@ -308,7 +308,12 @@ template {
   display: none;
 }
 
-/* variables */ /*!
+/* variables-dark */
+code {
+  color: rgb(10, 9, 9);
+}
+
+/*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
@@ -6431,7 +6436,7 @@ p {
 }
 
 body {
-  color: #39290f;
+  color: #d1c5ef;
 }
 
 .main {
@@ -6736,9 +6741,12 @@ precode {
   grid-row: 1/2;
 }
 
+body {
+  background-color: #567;
+}
+
 * {
   font-family: "Roboto", sans-serif;
-  color: #39290f;
 }
 
 h1,
@@ -6750,6 +6758,6 @@ h6 {
   font-family: "Open Sans", sans-serif;
 }
 
-body {
-  background-color: #dfc18c;
+* {
+  color: #d1c5ef;
 }

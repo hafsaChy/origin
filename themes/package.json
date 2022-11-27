@@ -171,10 +171,18 @@
   },
   "devDependencies": {},
   "scripts": {
-    "lint": "stylelint \"**/*.scss\"",
-    "style": "sass rehaf/scss/style.scss rehaf/css/style.css --no-source-map",
-    "style-min": "sass rehaf/scss/style.scss rehaf/css/style.min.css --no-source-map --style compressed"
+    "test" : "echo \"Error: no test specified\" && exit 1" ,
+    "lint" : "stylelint \"**/*.scss\"" ,
+    "watch" : "sass rehaf/scss/style.scss:rehaf/css/style.css rehaf/scss/style-dark.scss:rehaf/css/style-dark.css --no-source-map --watch" ,
+    "watch-min" : "sass rehaf/scss/style.scss:rehaf/css/style.min.css rehaf/scss/style-dark.scss:rehaf/css/style-dark.min.css --no-source-map -- watch --style compressed" ,
+    "style" : "npm run style-light &&npm run style-dark" ,
+    "style-min" :"npm run style-light-min && npm run style-dark-min" ,
+    "style-dark" : "sass rehaf/scss/style-dark.scss rehaf/css/style-dark.css --no-source-map" ,
+    "style-dark-min" : "sass rehaf/scss/style-dark.scss rehaf/css/style-dark.min.css --no-source-map --style compressed" ,
+    "style-light" : "sass rehaf/scss/style.scss rehaf/css/style.css --no-source-map" ,
+    "style-light-min" : "sass rehaf/scss/style.scss rehaf/css/style.min.css --no-source-map --style compressed"
   },
+   
   "keywords": [],
   "author": "",
   "license": "ISC"
