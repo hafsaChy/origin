@@ -6431,7 +6431,7 @@ p {
 }
 
 body {
-  color: #39290f;
+  color: #38290f;
 }
 
 .main {
@@ -6649,12 +6649,12 @@ precode {
 .report {
   display: grid;
   grid-template-columns: 60% 40%;
-  grid-template-rows: 100px 100px 100px 100px;
+  grid-template-rows: 100px 70px 70px 70px;
   gap: 2em 2em;
 }
 
 .analys {
-  border: 1px solid rgb(156, 147, 147);
+  border: 1px solid #9c9393;
   position: relative;
   overflow: hidden;
 }
@@ -6686,24 +6686,15 @@ precode {
   grid-column: 1/2;
   grid-row: 2/3;
 }
-.colors h3 {
-  background-color: rgb(60, 174, 219);
-}
 
 .load {
   grid-column: 1/2;
   grid-row: 3/4;
 }
-.load h3 {
-  background-color: rgb(44, 143, 126);
-}
 
 .design {
   grid-column: 1/2;
   grid-row: 4/5;
-}
-.design h3 {
-  background-color: rgb(202, 177, 34);
 }
 
 /* analysis */
@@ -6738,7 +6729,7 @@ precode {
 
 * {
   font-family: "Roboto", sans-serif;
-  color: #39290f;
+  color: #38290f;
 }
 
 h1,
@@ -6752,4 +6743,16 @@ h6 {
 
 body {
   background-color: #dfc18c;
+}
+
+.colors h3 {
+  background-color: #ffbb45;
+}
+
+.load h3 {
+  background-color: #ffbb45;
+}
+
+.design h3 {
+  background-color: #ffbb45;
 }

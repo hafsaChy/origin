@@ -310,7 +310,7 @@ template {
 
 /* variables-dark */
 code {
-  color: rgb(10, 9, 9);
+  color: #070214;
 }
 
 /*!
@@ -6654,12 +6654,12 @@ precode {
 .report {
   display: grid;
   grid-template-columns: 60% 40%;
-  grid-template-rows: 100px 100px 100px 100px;
+  grid-template-rows: 100px 70px 70px 70px;
   gap: 2em 2em;
 }
 
 .analys {
-  border: 1px solid rgb(156, 147, 147);
+  border: 1px solid #9c9393;
   position: relative;
   overflow: hidden;
 }
@@ -6691,24 +6691,15 @@ precode {
   grid-column: 1/2;
   grid-row: 2/3;
 }
-.colors h3 {
-  background-color: rgb(60, 174, 219);
-}
 
 .load {
   grid-column: 1/2;
   grid-row: 3/4;
 }
-.load h3 {
-  background-color: rgb(44, 143, 126);
-}
 
 .design {
   grid-column: 1/2;
   grid-row: 4/5;
-}
-.design h3 {
-  background-color: rgb(202, 177, 34);
 }
 
 /* analysis */
@@ -6760,4 +6751,16 @@ h6 {
 
 * {
   color: #d1c5ef;
+}
+
+.colors h3 {
+  background-color: #362a52;
+}
+
+.load h3 {
+  background-color: #362a52;
+}
+
+.design h3 {
+  background-color: #362a52;
 }

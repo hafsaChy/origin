@@ -4,10 +4,10 @@ $font-color: #d1c5ef ;
 $accent-color: #512dac;
 $background-color: #1b0f39;
 
-code {
-    color: rgb(10, 9, 9);
-}
-
 $base-line-height: 1.4;
 $base-font-size: 1.1rem;
 $magic-number: $base-line-height * $base-font-size;
+
+code {
+    color: #070214;
+}
