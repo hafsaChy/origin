@@ -12,5 +12,3 @@ I am Hafsa Choudhry, born and raised in Bangladesh. I live in Stockholm with my 
 Mathematics is my favorite subject since my childhood. So I did my bachelor's and master's degrees in mathematics. During my bachelor's studies, I had some courses in computer science. My interest in computer science started at that time. I have started studying web programming at BTH with the dream of becoming a web programmer.
 
 ![cat](%assets_url%/img/cat.jpeg)
-
-

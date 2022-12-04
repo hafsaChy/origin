@@ -7,6 +7,7 @@
 @import 'technology';
 @import  'report' ;
 @import  'analysis' ;
+@import  'gallery' ;
 
 body {
     background-color: #567;
@@ -46,4 +47,9 @@ h6 {
     h3 {
         background-color: #362a52;
     }
+}
+
+.excelsheet {
+    width: 100%;
+    height: 700px;
 }

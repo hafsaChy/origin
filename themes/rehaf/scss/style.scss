@@ -5,8 +5,10 @@
 @import  'code' ;
 @import 'technologies';
 @import 'technology';
-@import  'report' ;
-@import  'analysis' ;
+@import  'report';
+@import  'analysis';
+@import  'gallery';
+@import  'video';
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -42,4 +44,9 @@ body {
     h3 {
         background-color: #ffbb45;
     }
+}
+
+.excelsheet {
+    width: 100%;
+    height: 700px;
 }
