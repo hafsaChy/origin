@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/rose.jpg
+Logo: image/rose.jpg
 Tagline: My portfolio.
 Social:
     - title: Link to my own Github repo
