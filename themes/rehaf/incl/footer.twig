@@ -1,18 +1,18 @@
 <div class="footer">
     <div>
         <p>
-            some text
+            &copy Hafsa Choudhury
         </p>
     </div>
     <div class="social">
         <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
         {% for social in pages["_meta"].meta.social %}
         <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-            <i class="fab fa-{{ social.icon }}" aria-hidden="true"></i>
+            <i class="{{ social.icon }}" aria-hidden="false"></i>
             <span class="sr-only">{{ social.title }}</span>
         </a>
         {% endfor %}
-        <a href="?action=session_destroy">Destroy Session</a>
-        <a href="?action=theme">Swap theme</a>
+        <!-- <a href="?action=session_destroy">session destroy</a>
+        <a href="?action=theme">swap theme</a>-->
     </div>
 </div>

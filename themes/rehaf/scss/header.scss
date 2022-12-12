@@ -1,0 +1,43 @@
+.header {
+    background-color: $base-color;
+    color: $font-color;
+    padding: $magic-number;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.title a h1 {
+    margin: 0;
+    margin-left: $magic-number;
+}
+
+.title a:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    font-size: $base-font-size;
+    text-decoration: none;
+}
+
+.nav a {
+    color: $font-color;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}

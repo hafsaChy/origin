@@ -1,5 +1,8 @@
-@import  '../../node_modules/normalize.css/normalize' ;
+@import  'normalize_font';
 @import  'variables';
+@import  'base';
+@import  'header.scss';
+@import  'footer.scss';
 @import  'typography';
 @import  'blockquotes' ;
 @import  'code' ;
@@ -9,24 +12,7 @@
 @import  'analysis';
 @import  'gallery';
 @import  'video';
-
-* {
-    font-family: 'Roboto', sans-serif;
-    color: $font-color;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Open Sans' , sans-serif;
-}
-
-body {
-    background-color: $background-color;
-}
+@import 'frame';
 
 .colors {
     h3 {

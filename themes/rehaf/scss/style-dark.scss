@@ -1,5 +1,8 @@
-@import  '../../node_modules/normalize.css/normalize' ;
+@import  'normalize_font';
 @import  'variables-dark';
+@import  'base';
+@import  'header.scss';
+@import  'footer.scss';
 @import  'typography';
 @import  'blockquotes' ;
 @import  'code' ;
@@ -8,10 +11,7 @@
 @import  'report' ;
 @import  'analysis' ;
 @import  'gallery' ;
-
-body {
-    background-color: #567;
-}
+@import 'frame';
 
 * {
     font-family: 'Roboto', sans-serif;

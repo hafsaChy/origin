@@ -2,9 +2,12 @@
     <div class="site-header">
         {% if pages["_meta"].meta.logo %}
         <div class="logo">
-            <a href="{{ base_url }}">
-                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
-            </a>
+            <picture>
+                <a href="{{ base_url }}">
+                    <img srcset="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}"
+                    src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" width="60" height="57" alt="logo"/>
+                </a>
+            </picture>
         </div>
         {% endif %}
         <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>

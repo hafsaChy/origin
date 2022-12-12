@@ -308,11 +308,6 @@ template {
   display: none;
 }
 
-/* variables-dark */
-code {
-  color: #070214;
-}
-
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6427,6 +6422,93 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+/* variables-dark */
+code {
+  color: #070214;
+}
+
+body {
+  background-color: #6F6D7A;
+  min-height: auto;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.main {
+  min-height: 25rem;
+  padding: 1rem;
+}
+
+.header {
+  background-color: #302f35;
+  color: #fff;
+  padding: 1.54rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.title a h1 {
+  margin: 0;
+  margin-left: 1.54rem;
+}
+
+.title a:hover {
+  text-decoration: underline;
+}
+
+.nav {
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.54rem;
+  background-color: #302f35;
+  color: #fff;
+}
+
+.social a {
+  font-size: 1rem;
+  color: #fff;
+}
+
 html {
   font-size: 100%;
 }
@@ -6436,7 +6518,7 @@ p {
 }
 
 body {
-  color: #d1c5ef;
+  color: #fff;
 }
 
 .main {
@@ -6849,10 +6931,6 @@ precode {
     grid-row: 9/10;
   }
 }
-body {
-  background-color: #567;
-}
-
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -6867,7 +6945,7 @@ h6 {
 }
 
 * {
-  color: #d1c5ef;
+  color: #fff;
 }
 
 .colors h3 {

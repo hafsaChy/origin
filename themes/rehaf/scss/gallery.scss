@@ -10,10 +10,11 @@
     gap: 2em 2em;
 }
 
-.gallery-box {
-    border: 1px solid #9c9393;
+.frame {
+    border: 3px solid #9c9393;
     position: relative;
     overflow: hidden;
+    padding: 10px 10px;
 
     img {
         width: 100%;
@@ -21,7 +22,7 @@
     }
 }
 
-.gallery-box:hover {
+.frame:hover {
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
